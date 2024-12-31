@@ -1,4 +1,4 @@
-package dev.ev1dent.kpmainframe.events;
+package dev.ev1dent.kpmainframe.functionality;
 
 import dev.ev1dent.kpmainframe.utilities.Utils;
 import net.luckperms.api.LuckPerms;
@@ -13,12 +13,12 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
-public class PlayersFirstJoin implements Listener {
+public class FirstJoinDenyQuarterlyKit implements Listener {
 
     private final LuckPerms luckPerms;
     private final Utils Utils = new Utils();
 
-    public PlayersFirstJoin(LuckPerms luckPerms) {
+    public FirstJoinDenyQuarterlyKit(LuckPerms luckPerms) {
         this.luckPerms = luckPerms;
     }
 

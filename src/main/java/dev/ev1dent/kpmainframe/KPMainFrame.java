@@ -1,6 +1,6 @@
 package dev.ev1dent.kpmainframe;
 
-import dev.ev1dent.kpmainframe.events.PlayersFirstJoin;
+import dev.ev1dent.kpmainframe.functionality.FirstJoinDenyQuarterlyKit;
 import net.luckperms.api.LuckPerms;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -25,7 +25,7 @@ public final class KPMainFrame extends JavaPlugin {
     }
 
     public void registerEvents() {
-        Bukkit.getPluginManager().registerEvents(new PlayersFirstJoin(luckPerms), this);
+        Bukkit.getPluginManager().registerEvents(new FirstJoinDenyQuarterlyKit(luckPerms), this);
     }
 
 }
