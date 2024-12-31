@@ -1,9 +1,6 @@
 package dev.ev1dent.kpmainframe.utilities;
 
 import dev.ev1dent.kpmainframe.KPMainFrame;
-import org.apache.logging.log4j.Level;
-
-import java.util.logging.Logger;
 
 public class Utils {
 
