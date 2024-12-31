@@ -2,3 +2,5 @@ name: KP-MainFrame
 version: '${version}'
 main: dev.ev1dent.kpmainframe.KPMainFrame
 api-version: '1.21'
+depend:
+  - LuckPerms
